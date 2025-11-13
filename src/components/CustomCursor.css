@@ -1,0 +1,47 @@
+.custom-cursor {
+  position: fixed;
+  width: 24px;
+  height: 24px;
+  pointer-events: none;
+  z-index: 9999;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+  transform: translate(-50%, -50%);
+  transition: all 0.1s ease;
+}
+
+.cursor-arrow {
+  background: var(--pixel-blue);
+  box-shadow: 
+    2px 2px 0 var(--pixel-blue-dark),
+    4px 4px 0 var(--pixel-blue-light);
+  clip-path: polygon(
+    0 0, 
+    0 20px, 
+    4px 20px, 
+    4px 4px, 
+    18px 4px, 
+    18px 0
+  );
+}
+
+.cursor-glove {
+  background: var(--pixel-blue);
+  box-shadow: 
+    2px 2px 0 var(--pixel-blue-dark),
+    4px 4px 0 var(--pixel-blue-light);
+  clip-path: polygon(
+    0 0, 
+    0 18px, 
+    4px 18px, 
+    4px 12px, 
+    8px 12px, 
+    8px 8px, 
+    12px 8px, 
+    12px 4px, 
+    16px 4px, 
+    16px 0
+  );
+}
+

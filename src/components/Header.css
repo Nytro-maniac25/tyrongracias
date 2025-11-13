@@ -1,0 +1,41 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 20px 0;
+  background: transparent;
+}
+
+.header-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.contact-link {
+  color: var(--neon-orange);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.contact-link:hover {
+  color: var(--white);
+  text-shadow: 0 0 10px var(--neon-orange);
+  transform: translateY(-2px);
+}
+
+.separator {
+  color: var(--neon-orange);
+  font-size: 18px;
+}
+

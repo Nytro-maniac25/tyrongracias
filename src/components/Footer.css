@@ -1,0 +1,30 @@
+.footer {
+  background: var(--black);
+  border-top: 2px solid var(--white);
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-location,
+.footer-time,
+.footer-updated {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--white);
+  opacity: 0.8;
+}
+
+.footer-time {
+  font-weight: 600;
+  color: var(--neon-orange);
+}
+
